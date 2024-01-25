@@ -11,6 +11,6 @@ tx_fontScale = 2
 tx_thickness = 2
 cv2.putText(img, "Hello OpenCV", tx_start, tx_font, tx_fontScale, tx_color, tx_thickness)  # has to be in this order...?
 
-cv2.imshow('hello', img)
+cv2.imshow('Hello', img)
 cv2.waitKey(3000)
 cv2.destroyAllWindows()
